@@ -1,0 +1,11 @@
+{
+  "rollout_samples": 256,
+  "gradient_updates": [
+    25,
+    50
+  ],
+  "checkpoint_every": 5,
+  "learning_rate": 0.001,
+  "gradient_clip": 1.0,
+  "window_seed": 1701
+}

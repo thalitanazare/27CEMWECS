@@ -1,0 +1,40 @@
+{
+  "development_layouts": [
+    "L0",
+    "L1",
+    "L2"
+  ],
+  "confirmation_layouts": [
+    "L3",
+    "L4",
+    "L5"
+  ],
+  "states": [
+    "ISS1",
+    "ISS2",
+    "ISS3"
+  ],
+  "broadband_states": [
+    "WNSS1",
+    "WNSS2",
+    "WNSS3"
+  ],
+  "sample_rate_hz": 20,
+  "trim_start_s": 30,
+  "trim_end_s": 10,
+  "train_fraction": 0.65,
+  "guard_samples": 80,
+  "burn_samples": 80,
+  "nperseg": 256,
+  "excitation_threshold_db": -25,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "near_zero_energy_ratio": 0.05,
+  "input_modes": [
+    "aggregate",
+    "separate"
+  ]
+}

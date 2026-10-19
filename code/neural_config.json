@@ -1,0 +1,12 @@
+{
+  "sample_rate_hz": 20,
+  "burn_samples": 80,
+  "nperseg": 256,
+  "broadband_weight": 0.05,
+  "spectral_anchor": 0.0001,
+  "power_weight": 1.0,
+  "energy_weight": 0.25,
+  "neural_memory": 4,
+  "neural_delay": 1,
+  "neural_teacher_max_iter": 500
+}
